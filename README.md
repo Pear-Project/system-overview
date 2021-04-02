@@ -1,5 +1,5 @@
-# Control-Centre
-A nice Control Centre that looks like macOS Big Sur Control Centre
+# System Overview app for pearOS
+This app is made to look and feel like the macOS system-overview app :))
 
 ## Screenshots :)
 ![Dark mode](Screenshots/ss_1.png)
