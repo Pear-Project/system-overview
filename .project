@@ -1,0 +1,10 @@
+# Gambas Project File 3.0
+Startup=FMain
+Version=11.1.1
+Component=gb.image
+Component=gb.gui.qt
+Component=gb.form
+TabSize=2
+Language=en_US
+SourcePath=/home/pear/Desktop
+Packager=1
