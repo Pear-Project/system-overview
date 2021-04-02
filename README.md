@@ -36,6 +36,9 @@ Service page
    - Navigate to cloned folder, and open the project
    - Click on `Project` > `Make` > `executable`
    - copy the new executable in the `/usr/bin` folder of your Linux machine
+   ```sh
+   $ sudo mv <path to your system-overview.gambas> /usr/bin/sysoverview
+   ```
    - Enjoy :p
 
  - From Package:
@@ -44,3 +47,6 @@ Service page
    ```sh
    $ sudo dpkg -i <path to downloaded deb file, or drag and drop>
    ```
+   
+   ## Usage
+   Open a terminal and type `sysoverview` :)
