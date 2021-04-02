@@ -2,11 +2,20 @@
 A nice Control Centre that looks like macOS Big Sur Control Centre
 
 ## Screenshots :)
-![Dark mode](Screenshots/dark_centre.png)
-Dark mode
+![Dark mode](Screenshots/ss_1.png)
+Main page
 
-![Light mode](Screenshots/light_centre.png)
-Light mode
+![Light mode](Screenshots/ss_2.png)
+Display info
+
+![Light mode](Screenshots/ss_3.png)
+Storage info
+
+![Light mode](Screenshots/ss_4.png)
+Support page
+
+![Light mode](Screenshots/ss_5.png)
+Service page
 
 ## Dependencies
 
