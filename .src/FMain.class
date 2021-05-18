@@ -96,7 +96,7 @@ Print current_disk                                                              
 End                                                                                               'ending the Form_Open() function
 
 Public Sub btn_discord_Click()                                                                    'when the user clicks on Discord button
-  Shell "xdg-open 'https://discord.pearos.xyz'"                                                   'it will open the default browser with the shown link
+  Shell "xdg-open 'https://discord.gg/FYGBBgJ3Xx'"                                                'it will open the default browser with the shown link
 End                                                                                               'ending Discord click event
 
 Public Sub btn_ask_Click()                                                                        'when the user clicks on ASK button
