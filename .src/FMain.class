@@ -115,8 +115,8 @@ End
 ''''The code part is pretty much done.The above lines are For the front-end , buttons design, And borders :p''''
 ''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''
 Public Sub btn_overview_Click()
-  Me.W = 581
-  Me.H = 350
+  Me.W = 588
+  Me.H = 301
   btn_overview.Border = True
   btn_displays.Border = False
   btn_storage.Border = False
