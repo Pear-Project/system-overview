@@ -31,7 +31,7 @@
     Border = False
   }
   { pn_overview Panel
-    MoveScaled(1,5,84,39)
+    MoveScaled(0,5,84,39)
     { Panel7 Panel
       MoveScaled(17,36,59,3)
       { TextLabel3 TextLabel
@@ -49,7 +49,7 @@
       }
     }
     { brand PictureBox
-      MoveScaled(5,7,23,24)
+      MoveScaled(5,4,23,24)
       Picture = Picture.Load("sur.png")
       Mode = PictureBox.Contain
     }
