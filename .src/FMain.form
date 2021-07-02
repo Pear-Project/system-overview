@@ -7,26 +7,26 @@
   SkipTaskbar = True
   Centered = True
   { btn_overview Button
-    MoveScaled(21,0,9,4)
+    MoveScaled(21,1,9,4)
     Text = ("Overview")
   }
   { btn_displays Button
-    MoveScaled(30,0,9,4)
+    MoveScaled(30,1,9,4)
     Text = ("Displays")
     Border = False
   }
   { btn_storage Button
-    MoveScaled(39,0,9,4)
+    MoveScaled(39,1,9,4)
     Text = ("Storage")
     Border = False
   }
   { btn_support Button
-    MoveScaled(48,0,9,4)
+    MoveScaled(48,1,9,4)
     Text = ("Support")
     Border = False
   }
   { btn_service Button
-    MoveScaled(57,0,9,4)
+    MoveScaled(57,1,9,4)
     Text = ("Service")
     Border = False
   }
@@ -102,7 +102,7 @@
     { lbl_release TextLabel
       MoveScaled(36,6,24,3)
       Font = Font["Bold,-1"]
-      Text = ("Pre-alpha 09 June 2021")
+      Text = ("Beta 1st of July 2021")
       Alignment = Align.Left
     }
     { lbl_name Label
