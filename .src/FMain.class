@@ -88,7 +88,7 @@ lbl_serial_number.Text = "Serial Number  " & sn                                 
 Shell "x=$(df | grep '^/dev/' | awk '{s+=$2} END {print  s/1048576}'); echo ${x%.*} | tr -d '\n'" To lbl_storage_total.Text   'displaying the total storage of the main drive
   lbl_storage_total.Text = lbl_storage_total.Text & " GB"                                                                     'correcting the display value
   Shell "df -h --output=avail / | sed '1d' | tr -d ' ' | tr -d '\n' | tr -d 'G'" To lbl_storage_available.Text                'displaying the available storage
-  lbl_storage_available.Text = lbl_storage_available.Text & " GB available of " & lbl_storage_total.Text & "B"                'correcting the avail. storage
+  lbl_storage_available.Text = lbl_storage_available.Text & " GB available of " & lbl_storage_total.Text & " "                'correcting the avail. storage
   
   Shell "df -h --output=pcent / | sed '1d' | tr -d ' ' | tr -d '\n' | tr -d '%'" To pcent         'storring the % used storage in pcent variable for later use
   storage_bar.Value = Val(pcent) / 100                                                            'setting the storage bar, and using Val() to convert from string to integer
