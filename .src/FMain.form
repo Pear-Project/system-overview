@@ -34,13 +34,13 @@
     MoveScaled(0,5,84,39)
     { Panel7 Panel
       MoveScaled(17,36,59,3)
-      { TextLabel3 TextLabel
+      { lbl_copyright TextLabel
         MoveScaled(0,0,42,4)
         Font = Font["-2"]
         Foreground = &H606060&
         Text = ("© 2019 - 2021 PearProject. All rights reserved.")
       }
-      { TextLabel4 TextLabel
+      { lbl_license_agreement TextLabel
         MoveScaled(34,0,17,3)
         Font = Font["-2"]
         Foreground = &H606060&
