@@ -58,7 +58,7 @@
       Font = Font["-1"]
       Text = ("Software Update") & "..."
     }
-    { Button7 Button
+    { btn_system_report Button
       MoveScaled(36,32,16,3)
       Font = Font["-1"]
       Text = ("System Report") & "..."
@@ -119,12 +119,12 @@
   { pn_service Panel
     MoveScaled(1,6,118,51)
     Visible = False
-    { PictureBox1 PictureBox
+    { pic_laptop PictureBox
       MoveScaled(0,0,63,52)
       Picture = Picture.Load("8mb.video-CVl-qC2dPBxH.jpg")
       Mode = PictureBox.Contain
     }
-    { PictureBox2 PictureBox
+    { pic_support_pear PictureBox
       MoveScaled(82,3,6,7)
       Picture = Picture.Load("support.png")
       Mode = PictureBox.Contain
