@@ -24,6 +24,10 @@ Service page
    $ sudo apt-get install gambas3 -y
    ```
    - get the [pearOS package](https://github.com/Pear-Project/pearOS-package)
+   - create a directory `sudo mkdir -p /usr/share/extras`
+   - move `release_logo.png` in `/usr/share/extras`
+   - move `inches.py` in `/usr/share/extras`
+   - ready to install
 
 ## Installation steps
  - From Source:
