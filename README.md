@@ -23,6 +23,7 @@ Service page
    ```sh
    $ sudo apt-get install gambas3 -y
    ```
+   - get the [pearOS package](https://github.com/Pear-Project/pearOS-package)
 
 ## Installation steps
  - From Source:
