@@ -50,7 +50,7 @@
     }
     { brand PictureBox
       MoveScaled(5,4,23,24)
-      Picture = Picture.Load("sur.png")
+      Picture = Picture.Load("release_logo.png")
       Mode = PictureBox.Contain
     }
     { btn_update Button

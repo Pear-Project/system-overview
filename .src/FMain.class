@@ -21,9 +21,15 @@ Public sn As String
 Public resolution_val As String
 Public inches_val As String
 Public storage_total As String
+Public pear_version As String
 
 
 Public Sub Form_Open()
+  
+Shell "sysinfo --release | tr -d '\n'" To lbl_name.Text
+Shell "sysinfo --stage | tr -d '\n'" To lbl_release.Text
+brand.Picture = Picture["/usr/share/extras/release_logo.png"]
+
 Dim pcent As String
 
 Shell "cat /proc/cpuinfo | grep -i ghz | uniq | cut -f2 -d" & ":" To cpuinfo              'getting the CPU details and putting them into cpuinfo string variable

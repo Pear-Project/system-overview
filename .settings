@@ -9,11 +9,10 @@ Count=0
 LastCommit="increased version\nfixed bad padding of the toolbar buttons\nfixed GBB bug under the Storage tab"
 
 [OpenFile]
-Active=1
+Active=2
 File[1]=".src/FMain.form"
-Count=3
-File[2]=".src/f_storage.form"
-File[3]=".src/FMain.class:109.90"
+Count=2
+File[2]=".src/FMain.class:67.34"
 
 [Watches]
 Count=0

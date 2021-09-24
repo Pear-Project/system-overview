@@ -1,10 +1,14 @@
 # Gambas Project File 3.0
+Title=System informations
 Startup=FMain
-Version=12.0.0
+Version=1.0.0
 Component=gb.image
 Component=gb.gui.qt
 Component=gb.form
+Description="First version of the pearOS NiceC0re System Overview application"
+Authors="Alexandru Balan - Main dev.\nAndrei Muntean  - Artwork, logos and graphics"
 TabSize=2
 Language=en_US
 SourcePath=/home/pear/Desktop
+Vendor=PearProject
 Packager=1
